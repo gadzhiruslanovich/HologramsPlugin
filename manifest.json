@@ -1,0 +1,20 @@
+{
+  "Group": "com.holograms",
+  "Name": "Holograms",
+  "Version": "1.0.0",
+  "Description": "Plugin for creating holograms",
+  "Authors": [
+    {
+      "Name": "Gadzhiev Gadzhi",
+      "Email": "gadzhiruslanovich@gmail.com",
+      "Url": "https://github.com/gadzhiruslanovich"
+    }
+  ],
+  "Website": "https://github.com/gadzhiruslanovich",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.holograms.HologramsPlugin",
+  "IncludesAssetPack": false
+}
