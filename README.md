@@ -12,4 +12,13 @@ All management is done through simple server commands:
 ```bash
 /hologram list — displays a list of all existing holograms
 ```
+
+Permission:
+```bash
+holograms.management
+```
+
+⚠️ Hytale server does not remove holograms automatically.
+If you plan to uninstall the plugin, make sure to remove all holograms using the command beforehand; otherwise, they will remain in the world.
+
 ![Hologram example](images/hologram.png)

@@ -20,6 +20,8 @@ public class HologramCommand extends AbstractAsyncCommand {
         super("hologram", "Commands for working with holograms");
 
         addAliases("hg", "ft", "floatingtext");
+        setPermissionGroups("holograms.management");
+
         addSubCommand(new CreateHologramCommand());
         addSubCommand(new RemoveHologramCommand());
         addSubCommand(new ListHologramCommand());
